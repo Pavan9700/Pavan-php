@@ -14,4 +14,3 @@ RUN docker-php-ext-install mbstring pdo pdo_mysql \
     && chown -R www-data:www-data /srv/app \
     && a2enmod rewrite negotiation \
     && docker-php-ext-install opcache
-#php idontknow
